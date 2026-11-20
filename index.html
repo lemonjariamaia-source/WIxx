@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashio - Creative Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Clients</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="logo">
+            <span>Fashio</span>
+            <span class="logo-vertical">nisu.</span>
+        </div>
+    </header>
+
+    <section class="hero" id="about">
+        <h1 class="hero-title">Video Content</h1>
+        <div class="hero-image">
+            <img src="download.jpg" alt="Fashion model">
+        </div>
+        <h2 class="hero-subtitle">Creatives</h2>
+        <div class="second-image">
+            <video controls loop muted src="Model.mp4"></video>
+            <button class="video-play" type="button" aria-label="Play video">▶</button>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="section-title">Our Projects.</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1200" alt="Colors and Glam">
+                <h3>Colors, Glam</h3>
+            </div>
+            <div class="project">
+                <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1200" alt="In the Wild Collection">
+                <h3>Collection</h3>
+            </div>
+            <div class="project">
+                <img src="IMG_2354_1 1.jpg" alt="Winter in Berlin">
+                <h3>Winter in Berlin</h3>
+            </div>
+            <div class="project">
+                <img src="IMG_2555_1 1.jpg" alt="Milan Fashion Week">
+                <h3>Fashion Week</h3>
+            </div>
+            <div class="project">
+                <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1200" alt="Fashion editorial">
+                <h3>Fashion Editorial</h3>
+            </div>
+            <div class="project">
+                <img src="IMG_2354_1 1.jpg" alt="Creative Portrait">
+                <h3>Creative Portrait</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="site-footer">
+        <div class="footer-main">
+            <h2>Follow Fashionisu.<br>Subscribe Today</h2>
+            <form class="subscribe-form">
+                <label for="email">Email Address: <span>*</span></label>
+                <input id="email" name="email" type="email" required>
+                <div class="subscribe-actions">
+                    <label class="newsletter-consent">
+                        <input type="checkbox" required>
+                        <span>Yes, subscribe me to your newsletter. *</span>
+                    </label>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
+            <p class="copyright">
+                © 2026 By MAIKO. Powered and secured by <a href="#">Wix</a>
+            </p>
+        </div>
+        <aside class="footer-rail" aria-label="Social links">
+            <a class="footer-logo" href="#" aria-label="Fashionisu home">isu.</a>
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="Twitter">♥</a>
+                <a href="#" aria-label="YouTube">▶</a>
+            </div>
+        </aside>
+    </footer>
+
+</body>
+</html>
